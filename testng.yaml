@@ -1,0 +1,13 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+  classes:
+    - tests.CreateAccountTest
+    - tests.ItemTest
+    - tests.CartTest
+    - tests.LoginFailedTest
+    - tests.BaseTest
+    - tests.ProductsTest
+    - tests.FavouritesTest
+
